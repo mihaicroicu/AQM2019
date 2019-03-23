@@ -12,7 +12,7 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 - Assignment 1.2 (First Monte Carlo)
 
 ## Current due dates:
-- Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**
+- Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**
 
 
 
