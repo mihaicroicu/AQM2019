@@ -17,7 +17,7 @@ An *"ACTIVE"* conflict-year is a year where a conflict had at least 25 total dea
 			  
 *type_of_violence* - Type of violence
    - "1" : state-based conflict
-   - "2" : non-state conflict, either between rebels or communal groups 
+   - "2" : non-state conflict
    - "3" : one-sided violence
 
 For a conflict to be included in the NON-STATE DATASET, the type_of_violence must be 2
