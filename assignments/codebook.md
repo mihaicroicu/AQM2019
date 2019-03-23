@@ -61,7 +61,7 @@ For a conflict to be included in the NON-STATE DATASET, the type_of_violence mus
 
 
 -------------------
-NON-STATE. 
+Codebook for the NON-STATE dataset
 -------------------
 
 This is a dataset of yearly non-state conflicts.
