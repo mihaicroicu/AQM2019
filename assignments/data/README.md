@@ -1,1 +1,1 @@
-This contains the data for assignments 1 and 1.1.
+This contains the data for assignment 1.1.
