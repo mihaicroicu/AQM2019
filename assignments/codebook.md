@@ -70,7 +70,7 @@ Only *ACTIVE* conflict-years are inclued. That means a conflict must have 25 dea
 
 *conflict_id* - a unique identifier for conflicts. SAME system is used for "conflict_number" in the GED dataset (a conflict with conflict_number == 193 in GED will be the same with the one with conflict_id == 193 in NON-STATE).
 
-*conflict_type* - What kind of NON-STATE conflict do we have?
+*org_class* - What kind of NON-STATE organizations do we have?
     - 1. "organized" (rebel vs. rebel)
     - 2. "supportive" (supporters of politicians/organizations vs. other supporters)
     - 3. "communal" (tribe vs. tribe or group vs. group).
