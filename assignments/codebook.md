@@ -101,10 +101,14 @@ Only *ACTIVE* conflict-years are inclued. That means a conflict must have 25 dea
 ----------
 NOTES:
 ----------
-Both datasets are actually real, but heavily processed. For real work, when doing your own research, do not use these (they contain intentional simplifications), use the REAL deal.
+Both datasets are actually real, but heavily processed. For real work, when doing your own research, do not use these (they contain intentional simplifications), use the REAL deal:
 
-UCDP GED : • Croicu, Mihai and Ralph Sundberg, 2017, “UCDP GED Codebook version 18.1”, Department of Peace and Conflict Research, Uppsala University
+UCDP GED :
+**Croicu, Mihai and Ralph Sundberg, 2017, “UCDP GED Codebook version 18.1”, Department of Peace and Conflict Research, Uppsala University**
+The full codebook, if curious (but note, we have simplified the coding quite a bit for your little samples) is available here: http://ucdp.uu.se/downloads/ged/ged181.pdf
 
-UCDP Non-State Conflict Dataset :  Sundberg, Ralph, Kristine Eck and Joakim Kreutz (2012) Introducing the UCDP Non-State Conflict Dataset, Journal of Peace Research 49(2).
+UCDP Non-State Conflict Dataset :  
+**Sundberg, Ralph, Kristine Eck and Joakim Kreutz (2012) Introducing the UCDP Non-State Conflict Dataset, Journal of Peace Research 49(2).**
+http://ucdp.uu.se/downloads/nsos/ucdp-nonstate-181.pdf
 
 The "real datasets" are available on UCDP's webpage.
