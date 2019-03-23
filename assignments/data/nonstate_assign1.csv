@@ -1,4 +1,4 @@
-conflict_id,conflict_type,side_a_name,side_a_id,side_b_name,side_b_id,year,region,country_id,country,conflict_name
+conflict_id,org_class,side_a_name,side_a_id,side_b_name,side_b_id,year,region,country_id,country,conflict_name
 4564,1,1920 Revolution Brigades,783,IS,234,2007,2,645,Iraq,1920 Revolution Brigades - IS
 4565,3,Abgal clan (Hawiye),1028,Xawaadle clan (Hawiye),891,2008,4,645,Iraq,Abgal clan (Hawiye) - Xawaadle clan (Hawiye)
 4567,2,Supporters of ACN,893,Supporters of PDP,668,2008,4,645,Iraq,Supporters of ACN - Supporters of PDP
