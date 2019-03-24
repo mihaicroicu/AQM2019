@@ -38,4 +38,4 @@ Thus:
 of any assistance? Why? Why not? Show all the code you used to explore the data (if you used any) and write the code to compute the lags.
 
 
-*Provide the answers as a commented code file (eg. an R script)*. Text parts can be written either as *comments in the code* or in a *separate document*. 
+*Provide the answers as a commented code file (eg. an R script)*. Text parts can be written either as *comments in the code* or in a *separate document*. While we thought you how to do this using R and tidyverse/dplyr, you can use any open-source programming language you want - we are able to grade R, Python, SQL and Julia. You MAY NOT use STATA, SAS or SPSS (as they are not open-source).
