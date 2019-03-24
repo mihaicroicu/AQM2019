@@ -9,7 +9,7 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 
 ### Assignments
 - Assignment 1.1 (Data Management)
-- Assignment 1.2 (First Monte Carlo)
+- Assignment 1.2 (First Monte Carlo) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment1.2.pdf
 
 ## Current due dates:
 - Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**
