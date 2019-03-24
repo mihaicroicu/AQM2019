@@ -1,10 +1,6 @@
 ## ASSIGNMENT 1.1 ## 
 
-**Please do all of the EASY AND MEDIUM tasks**
-
-**Take your pick at at least 1 (ONE) of the HARD tasks**
-
-In order to pass, you do not need to successfully complete the HARD tasks, but at least have tried one of them.
+In order to pass, you do not need to successfully complete the HARD task, but at least have tried to answer it. The purpose of the hard task is to show you a few of the caveats and problems of working with data!
 
 Two commonly used datasets in conflict research are the UCDP Non-State Conflict dataset, which provides a list of armed conflicts where *states were not involved* on a country-year level and the UCDP Geo-Referenced Event Dataset (GED) which provides details on individual battles (down to day and village level). GED provides battle events for all three conflict types, *state-based*, *non-state* and *one-sided*. 
 
@@ -30,18 +26,13 @@ A common problem researchers and anlysts have is that non-state conflict is sub-
 
 Thus:
 
-3. `MEDIUM` `code` Write the code that produces a dataset containing **sums of fatalities** and **counts of battle events** by **conflict-year** and **only covers communally organized non-state conflict**. For your research you need only **active** conflict-years included in your dataset. 
-
-4. `MEDIUM` `write` Write a short (1-3 paragraphs) summary describing *the choices you made* and the *plan* you did to solve problem **3.**
+3. `MEDIUM` `code+write` Write the code that produces a dataset containing **sums of fatalities** and **counts of battle events** by **conflict-year** and **only covers communally organized non-state conflict**. For your research you need only **active** conflict-years included in your dataset. Write a short (1-3 paragraphs) summary describing *the choices you made* and the *plan* you did to solve this.
 
 Another common problem researchers have is needing monthly data. You have this problem for your research too!
 
 Thus:
 
-6. `MEDIUM` `write` Make a dataset where you summarize `GED` computing **sums of fatalities** and **counts of battle events** by country-month only for **Africa**, only for **2016** and only for **state-based conflict**.
+4. `MEDIUM` `write` Make a dataset where you summarize `GED` computing **sums of fatalities** and **counts of battle events** by country-month only for **Africa**, only for **2016** and only for **state-based conflict**.
 
-**CHOOSE ONE BELOW**
-
-7a. `HARD` `write+code` Your reviewer asks you to compute the **1-month lag** of **counts of battle events** and **sums of fatalities** for the dataset you computed at task **6.**. Can you do it using the dataset you computed at task **6.**? Why? Why not? Think about what happens to the lags when a month has no events and no fatalities in that month, but the month before and after does have events. Write 1-2 paragraphs. Does this dataset help you
-
-7b. `HARD` `write+code` A conflict consists of two actors fighting each-other. 
+5. `HARD` `write+code` Your reviewer asks you to compute the **1-month lag** of **counts of battle events** and **sums of fatalities** for the dataset you computed at task **4.**. Can you do it using the dataset you computed at task **4.**? Why? Why not? Think about what happens to the lags when a month has no events and no fatalities in that month, but the month before and after does have events. Write 1-2 paragraphs. Is this dataset : https://raw.githubusercontent.com/mihaicroicu/AQM2019/master/Data/scaffold.csv
+of any assistance? Why? Why not? Show all the code you used to explore the data (if you used any) and write the code to compute the lags.
