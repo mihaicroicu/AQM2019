@@ -8,7 +8,7 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 - Lecture 1 (Programming and Data Basics)
 
 ### Assignments
-- Assignment 1.1 (Data Management)
+- Assignment 1.1 (Data Management) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment1.1.md
 - Assignment 1.2 (First Monte Carlo) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment1.2.pdf
 
 ## Current due dates:
