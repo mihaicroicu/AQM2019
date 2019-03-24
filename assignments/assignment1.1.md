@@ -36,3 +36,6 @@ Thus:
 
 5. `HARD` `write+code` Your reviewer asks you to compute the **1-month lag** of **counts of battle events** and **sums of fatalities** for the dataset you computed at task **4.**. Can you do it using the dataset you computed at task **4.**? Why? Why not? Think about what happens to the lags when a month has no events and no fatalities in that month, but the month before and after does have events. Write 1-2 paragraphs. Is this dataset : https://raw.githubusercontent.com/mihaicroicu/AQM2019/master/Data/scaffold.csv
 of any assistance? Why? Why not? Show all the code you used to explore the data (if you used any) and write the code to compute the lags.
+
+
+*Provide the answers as a commented code file (eg. an R script)*. Text parts can be written either as *comments in the code* or in a *separate document*. 
