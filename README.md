@@ -5,7 +5,8 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 ## Current content available:
 
 ### Lectures
-- Lecture 1 (Programming and Data Basics)
+- Lecture 1 (Programming and Data Basics) : MC
+- Lecture 2 (Simulation Basics and First Monte Carlo) : HH
 
 ### Assignments
 - Assignment 1.1 (Data Management) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment1.1.md
