@@ -1,4 +1,4 @@
-## COVERAGE PLOTS USING PLOTLY.
+## COVERAGE PLOTS USING PLOTLY AND BASE R
 ## Author :  Mihai Croicu, Uppsala University, 2018.
 ## License : https://opensource.org/licenses/MIT
 ## For AQM 2019
@@ -15,6 +15,10 @@ rm(list=ls())
 #Install plotly and processx if you don't have it.
 if (!require("processx")) install.packages("processx")
 if (!require("plotly")) install.packages("plotly")
+if (!require("webshot")) {
+  install.packages('webshot')
+  webshot::install_phantomjs()
+  }
 
 #Set seed to 0 for replication
 set.seed(0)
@@ -131,8 +135,8 @@ surface
 ## And we can also save these as pdfs. You will need to install the plotly orca server or go through their server.
 ## Don't worry, if you choose to do these with Plotly, just leave these commented, we can check on our own machine.
 ## If you need help exporting a plotly plot to your machine, for example, for your own work, contact us!
-#orca(contour,'contour.pdf')
-#orca(surface,'surface.pdf')
+export(contour,'contour.pdf')
+export(surface,'surface.pdf')
 
 
 ##########################
