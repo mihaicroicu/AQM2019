@@ -7,16 +7,20 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 ### Lectures
 - Lecture 1 (Programming and Data Basics) : MC
 - Lecture 2 (Simulation Basics and First Monte Carlo) : HH
+- Lecture 3 (Hypothesis Testing and Predictive Models) : DR
+- Lecture 4 (Logistic Regression and MLE) : HH
+
 
 ### Assignments
 - Assignment 1.1 (Data Management) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment1.1.md
 - Assignment 1.2 (First Monte Carlo) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment1.2.pdf
+- Assignment 2 (Logistic Regression and Predictive Techniques) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment2.pdf
 
 E-mail these assignments to Mihai.
 
 ## Current due dates:
-- Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**
-
+- ~~Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**
+- Assignment 2 is due **
 
 
 
