@@ -16,7 +16,7 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 - Assignment 1.2 (First Monte Carlo) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment1.2.pdf
 - Assignment 2 (Logistic Regression and Predictive Techniques) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment2.pdf
 
-E-mail these assignments to Mihai.
+E-mail these assignments to Mihai, Håvard and David. DO NOT upload them to Studentportalen.
 
 ## Current due dates:
 - ~~Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**
