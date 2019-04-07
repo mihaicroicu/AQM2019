@@ -19,8 +19,8 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 E-mail these assignments to Mihai, Håvard and David. DO NOT upload them to Studentportalen.
 
 ## Current due dates:
-- ~~Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**
-- Assignment 2 is due **
+- ~~Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**~~
+- Assignment 2 is due **APRIL 12th AT 17:00**
 
 
 
