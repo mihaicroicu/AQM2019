@@ -23,7 +23,7 @@ df <- data.frame(x1 = xmat[,1],
                  x2 = xmat[,2],
                  x3 = x3)
 
-# Create odds and probabilities
+# Create dependent variable
 df <- df %>% mutate(y = 1.5*x1 + 0.7*x2 - 0.5*x3 +rnorm(samp_size,0,3))
 
 
@@ -39,7 +39,7 @@ b3_sim <- rnorm(1000,b3_est,b3_se)
 ## Setup bootstrap loop
 b3_bs <- rep(NA,1000)
 for(i in 1:1000){
-  bs_index <- sample(1:nrow(df),replace=T)
+  bs_index <- sample(1:nrow(df),1000,replace=T)
   df_bs <- df[bs_index,]
   m1_bs <- lm(y~x1+x2+x3,data=df_bs)
   b3_bs[i] <- m1_bs$coefficients[4]
@@ -53,7 +53,6 @@ ggplot(df_density,aes(x=value,col=type))+
 
 
 ## OLS with heteroscedasticity
-#Generate some independent data with some multicolinearity
 
 # Create dependent variable with complex heteroskedasticity
 df_het <- df %>% mutate(y_het = 1.5*x1 + 0.7*x2 - 0.5*x3 +rnorm(samp_size,0,apply(abs(df[,1:3]),1,sum)))
@@ -71,7 +70,7 @@ b3_sim_het <- rnorm(1000,b3_est_het,b3_se_het)
 ## Setup bootstrap loop
 b3_bs_het <- rep(NA,1000)
 for(i in 1:1000){
-  bs_index <- sample(1:nrow(df),replace=T)
+  bs_index <- sample(1:nrow(df),1000,replace=T)
   df_bs_het <- df_het[bs_index,]
   m1_bs_het <- lm(y_het~x1+x2+x3,data=df_bs_het)
   b3_bs_het[i] <- m1_bs_het$coefficients[4]
@@ -103,8 +102,8 @@ df_density_het %>% group_by(type) %>% summarize(mean=mean(value),
 ### Simulating QI
 
 #Generate some independent data with some multicolinearity
-xmat <- rmvnorm(samp.size,c(0,1),matrix(c(1,0.2,0.2,2),2,2,byrow=T))
-x3 <- rpois(samp.size,apply(abs(xmat),1,sum))
+xmat <- rmvnorm(samp_size,c(0,1),matrix(c(1,0.2,0.2,2),2,2,byrow=T))
+x3 <- rpois(samp_size,apply(abs(xmat),1,sum))
 
 # Make data.frame
 df <- data.frame(x1 = xmat[,1],
@@ -112,8 +111,8 @@ df <- data.frame(x1 = xmat[,1],
                  x3 = x3)
 
 # Create odds and probabilities
-df <- df %>% mutate(z = 1.5*x1 + 0.7*x2 - 0.5*x3 +rnorm(samp.size,0,3),
-                    y = rbinom(samp.size,1,inv.logit(z)))
+df <- df %>% mutate(z = 1.5*x1 + 0.7*x2 - 0.5*x3 +rnorm(samp_size,0,3),
+                    y = rbinom(samp_size,1,inv.logit(z)))
 
 
 
@@ -122,6 +121,8 @@ span_x3 <- seq(from=range(df$x3)[1],to=range(df$x3)[2],by=1)
 length_x3 <- length(range(df$x3)[1]:range(df$x3)[2])
 df_x_test <- data.frame(x1=mean(df$x1),x2=mean(df$x2),x3=span_x3)
 
+
+m1 <- glm(y~x1+x2+x3,family="binomial",data=df)
 
 # Extract coefs and vcov of model 1
 coefs_m1 <- m1$coefficients
@@ -151,9 +152,11 @@ probs_tidy <- gather(probs,key="x3",value="probability")
 # Create lower and upper limits and summarize the simulations
 lower <- 0.025
 higher <- 0.975
-df_summary <- probs_tidy %>% group_by(x3) %>% summarize(mean = mean(probability),
-                                                        lo = quantile(probability,lower),
-                                                        hi = quantile(probability,higher)) %>%   ungroup()
+df_summary <- probs_tidy %>% group_by(x3) %>% 
+  summarize(mean = mean(probability),
+            lo = quantile(probability,lower),
+            hi = quantile(probability,higher)) %>%   
+  ungroup() %>% arrange(as.numeric(x3))
 
 # Make plot
 p1 <- ggplot(df_summary,aes(x=as.numeric(x3),y=mean))+
@@ -189,9 +192,10 @@ probs_tidy_ovs <- gather(probs_ovs,key="x3",value="probability")
 # Create lower and upper limits and summarize the simulations
 lower <- 0.025
 higher <- 0.975
-df_summary_ovs <- probs_tidy_ovs %>% group_by(x3) %>% summarize(mean = mean(probability),
-                                                        lo = quantile(probability,lower),
-                                                        hi = quantile(probability,higher)) %>%   ungroup()
+df_summary_ovs <- probs_tidy_ovs %>% group_by(x3) %>% 
+  summarize(mean = mean(probability),
+  lo = quantile(probability,lower),
+  hi = quantile(probability,higher)) %>%   ungroup()
 
 
 p2 <- p1 + geom_line(data=df_summary_ovs,aes(x=as.numeric(x3),y=mean),col="red")+
