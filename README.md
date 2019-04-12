@@ -21,6 +21,7 @@ E-mail these assignments to Mihai, Håvard and David. DO NOT upload them to Stud
 ## Current due dates:
 - ~~Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**~~
 - Assignment 2 is due **APRIL 12th AT 17:00**
+- Assignment 3 is due **APRIL 24th AT 17:00**
 
 
 
