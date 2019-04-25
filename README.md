@@ -19,6 +19,9 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 - Assignment 1.2 (First Monte Carlo) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment1.2.pdf
 - Assignment 2 (Logistic Regression and Predictive Techniques) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/assignment2.pdf
 - Assignment 3 (Panels, Count Models and Bootstrapping) : https://github.com/mihaicroicu/AQM2019/blob/master/assignments/Assignment%203.pdf
+- Assignment 4 (Random Forests and Forecasting) -- **ONLY FOR MA students** :
+- https://github.com/mihaicroicu/AQM2019/blob/master/assignments/Assignment%204.pdf
+- Assignemnt 4 for PhD students consists of an independent project, described by HH via e-mail. Contact him for details, questions or to submit/discuss your proposal.
 
 E-mail these assignments to Mihai, Håvard and David. DO NOT upload them to Studentportalen.
 
@@ -27,7 +30,7 @@ E-mail these assignments to Mihai, Håvard and David. DO NOT upload them to Stud
 - ~~Assignment 2 is due **APRIL 12th AT 17:00**~~
 - ~~Assignment 3 is due **APRIL 24th AT 17:00**~~
 - Assignment 4 for MA students is due **MAY 3rd AT 17:00**. Assignment 4 is only due if you are an MA student. 
-- If you are a Ph.D. student, Håvard will need your proposal on or before **MAY 1st**. 
+- If you are a Ph.D. student, Håvard will need your proposal on or before **MAY 1st**. Your paper is due **MAY 24th**.
 
 
 
