@@ -26,7 +26,8 @@ E-mail these assignments to Mihai, Håvard and David. DO NOT upload them to Stud
 - ~~Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**~~
 - ~~Assignment 2 is due **APRIL 12th AT 17:00**~~
 - ~~Assignment 3 is due **APRIL 24th AT 17:00**~~
-- Assignment 4 will be posted shortly.
+- Assignment 4 for MA students is due **MAY 3rd AT 17:00**. Assignment 4 is only due if you are an MA student. 
+- If you are a Ph.D. student, Håvard will need your proposal on or before **MAY 1st**. 
 
 
 
