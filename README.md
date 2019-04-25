@@ -9,8 +9,8 @@ If you are taking this course with us, **Welcome on board and we hope you'll hav
 - Lecture 2 (Simulation Basics and First Monte Carlo) : HH
 - Lecture 3 (Hypothesis Testing and Predictive Models) : DR
 - Lecture 4 (Logistic Regression and MLE) : HH
-- Lecture 5 (In-sample vs. out-of-sample evaluation) : DR
-- Lecture 6 (Bootstrapping and Simulation of Quantities of Interest) : DR 
+- Lecture 5 (Bootstrapping and Simulation of Quantities of Interest) : DR
+- Lecture 6 (Multinomial and Ordered and Count Models) : HH 
 - Lecture 7 (Count and Panel Models) : HH
 - Lecture 8 (Tree-based models, Random Forests and Bagging) : MC
 
@@ -25,7 +25,8 @@ E-mail these assignments to Mihai, Håvard and David. DO NOT upload them to Stud
 ## Current due dates:
 - ~~Assignments 1.1 + 1.2 are due **APRIL 5th AT 17:00**. **BOTH PARTS ARE DUE!**~~
 - ~~Assignment 2 is due **APRIL 12th AT 17:00**~~
-- Assignment 3 is due **APRIL 24th AT 17:00**
+- ~~ Assignment 3 is due **APRIL 24th AT 17:00**~~
+- Assignment 4 will be posted shortly.
 
 
 
